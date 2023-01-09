@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-layout {
+  @apply bg-white;
+}
+
+.ant-layout-header {
+  @apply bg-[#F3F5F7] py-0 px-2 flex items-center;
+}
+
+.ant-menu {
+  @apply bg-inherit;
+}
+.search input.ant-input {
+  @apply leading-[32px] border px-2 border-r-0;
+}
+.ant-layout-sider {
+  @apply bg-[#F3F5F7];
+}
+
+.custom-sider .ant-menu {
+  @apply !h-auto;
+}
+.react-multi-carousel-item {
+  @apply pr-4;
+}
+.react-multiple-carousel__arrow {
+  @apply bg-black;
+}
+.ant-layout-sider-children {
+  @apply sticky top-0 h-0;
+}
+
+.fij {
+  @apply flex items-center justify-between;
+}
+.ant-card-body {
+  @apply p-[10px];
+}
+
+.course-item .ant-space-item {
+  @apply shrink-0;
+}
+.course-item button {
+  @apply px-1;
+}
+.absolute-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
